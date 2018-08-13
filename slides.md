@@ -46,12 +46,12 @@ This process allows simulating thousands of users even on a regular laptop, and 
 ---
 ## Web Interface
 
-![WI](/images/locust1.png)
+![WI](https://github.com/stevaaa/locust/blob/master/images/locust1.png?raw=true)
 
 ---
 ## Stats and Graphs
 
-![Stats](/images/locust2.png)
+![Stats](https://github.com/stevaaa/locust/blob/master/images/locust2.png?raw=true)
 
 ---
 ## Code Walkthrough
