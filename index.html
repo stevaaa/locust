@@ -1,1 +1,174 @@
-Coming soon
+<!doctype html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+
+<title>Slides</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="reveal-ck 3.8.0">
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+<!-- Code syntax highlighting -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+
+<link rel="stylesheet" href="css/reveal-ck.css">
+
+
+<!-- Printing and PDF exports -->
+<script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+
+  </head>
+
+  <body>
+    <div class="reveal">
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+    <section>
+
+<h3>Performance testing using</h3>
+<h2>LOCUST</h2>
+
+</section>
+<section>
+
+<h3>Why Performance</h3>
+
+</section>
+<section>
+
+<h3>Performance testing types</h3>
+<ul>
+  <li>Baseline Testing</li>
+  <li>Load Testing</li>
+  <li>Stress Testing</li>
+  <li>Soak Testing</li>
+  <li>Scalability Testing</li>
+</ul>
+
+</section>
+<section>
+
+<h3>Aspects of Performance Testing</h3>
+<ul>
+  <li>Reliability</li>
+  <li>Speed</li>
+  <li>Scalability</li>
+  <li>Stability</li>
+</ul>
+
+</section>
+<section>
+
+<h3>KPI’s Terms to measure Performance</h3>
+
+<ul>
+  <li>Service Oriented Architecture
+    <ul>
+      <li>Availibility and Response time</li>
+    </ul>
+  </li>
+  <li>Efficiency Oriented Architecture
+    <ul>
+      <li>Throughput and Utilization</li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+<section>
+
+<h2>Locust</h2>
+
+<p>a Python-based open source framework, which enables writing performance scripts in pure Python language.</p>
+
+</section>
+<section>
+
+<p>This process allows simulating thousands of users even on a regular laptop, and executing even very complex scenarios that have many steps.</p>
+
+</section>
+<section>
+
+<h2>Web Interface</h2>
+
+<p><img src="/images/locust1.png" alt="WI"></p>
+
+</section>
+<section>
+
+<h2>Stats and Graphs</h2>
+
+<p><img src="/images/locust2.png" alt="Stats"></p>
+
+</section>
+<section>
+
+<h2>Code Walkthrough</h2>
+
+</section>
+<section>
+
+<p>Questions any?</p>
+
+</section>
+
+  </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+
+<script>
+  (function() {
+  function extend( a, b ) {
+    for(var i in b) {
+      a[i] = b[i];
+    }
+  }
+  var baseOptions = {
+    transition: 'default',
+
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true },
+      { src: 'plugin/notes/notes.js', async: true }
+    ]
+  };
+
+
+  var configOptions = {"controls":true,"progress":true,"history":true,"center":true}
+  var initializeOptions = {};
+  extend(initializeOptions, baseOptions);
+  extend(initializeOptions, configOptions);
+  Reveal.initialize(initializeOptions);
+})();
+
+</script>
+
+  </body>
+</html>
